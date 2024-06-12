@@ -9,6 +9,7 @@ public class Usuario {
     public Usuario(String nome, String email, RedeSocial[] redesSociais){
         this.nome = nome;
         this.email = email;
+        this.redes = redesSociais;
         for(int i=0; i<redesSociais.length; i++){
             if(redesSociais[i] != null){
                 redes[i] = redesSociais[i];
